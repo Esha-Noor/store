@@ -6,5 +6,5 @@ from django.http import HttpResponse
 # action
 
 def say_hello(request):
-    "pull data, transform, send mainls etc"
+    "pull data, transform, send mails etc"
     return render(request, 'hello.html')
